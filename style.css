@@ -1,4 +1,4 @@
-/* style css */
+
 p { 
     color: red;
     font-size: 20px;
@@ -8,13 +8,3 @@ h1 {
     color: blue;
 }
 
-/* class selector */
-.warna-merah {
-    color: red;
-}
-
-/* id selector */
-#warna-biru {
-    color: blue;
-
-}
