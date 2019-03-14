@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS Day2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <script>
+    var angkaPertama =parseInt(prompt('Masukan Angka Pertama?'));
+    var angkaKedua = parseInt(prompt('Masukan angka kedua?'));
+    var operasi = prompt('masukan operasi matematika')
+    
+
+    if (operasi == '+' ) {
+        alert(angkaPertama + angkaKedua);
+        
+    } else if (operasi == '-') {
+            alert(angkaPertama - angkaKedua);
+            
+    } else if (operasi == '*') {
+            alert(angkaPertama * angkaKedua);
+    } else if (operasi == '/') {
+            alert(angkaPertama / angkaKedua);
+    }else if (operasi == 'akar') {
+            alert(Math.sqrt(angkaPertama, angkaKedua) );
+    }else if (operasi == 'min') {
+            alert(Math.min(angkaPertama, angkaKedua) );
+    } else if (operasi == 'pangkat') {
+            alert(Math.pow(angkaPertama, angkaKedua) );
+    }
+    </script>
+</body>
+</html>
